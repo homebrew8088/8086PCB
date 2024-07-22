@@ -27,23 +27,23 @@ $EndComp
 $Comp
 L 74xx:74LS04 U2
 U 7 1 669A97DE
-P 1200 4450
-F 0 "U2" V 833 4450 50  0000 C CNN
-F 1 "74*04" V 924 4450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1200 4450 50  0001 C CNN
-F 3 "" H 1200 4450 50  0001 C CNN
-	7    1200 4450
+P 1250 4925
+F 0 "U2" V 883 4925 50  0000 C CNN
+F 1 "74*04" V 974 4925 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1250 4925 50  0001 C CNN
+F 3 "" H 1250 4925 50  0001 C CNN
+	7    1250 4925
 	0    1    1    0   
 $EndComp
 $Comp
 L Oscillator:CXO_DIP8 X1
 U 1 1 669ADBFE
-P 1300 5075
-F 0 "X1" H 1644 5121 50  0000 L CNN
-F 1 "OSC" H 1644 5030 50  0000 L CNN
-F 2 "Oscillator:Oscillator_DIP-8" H 1750 4725 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1200 5075 50  0001 C CNN
-	1    1300 5075
+P 1350 5550
+F 0 "X1" H 1694 5596 50  0000 L CNN
+F 1 "OSC" H 1694 5505 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 1800 5200 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1250 5550 50  0001 C CNN
+	1    1350 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -109,19 +109,19 @@ GND
 $Comp
 L Device:R R1
 U 1 1 669B4780
-P 1425 5625
-F 0 "R1" V 1218 5625 50  0000 C CNN
-F 1 "27 OHM" V 1309 5625 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1355 5625 50  0001 C CNN
-F 3 "~" H 1425 5625 50  0001 C CNN
-	1    1425 5625
+P 1475 6100
+F 0 "R1" V 1268 6100 50  0000 C CNN
+F 1 "27 OHM" V 1359 6100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1405 6100 50  0001 C CNN
+F 3 "~" H 1475 6100 50  0001 C CNN
+	1    1475 6100
 	0    1    1    0   
 $EndComp
-Text Label 1600 5075 0    50   ~ 0
+Text Label 1650 5550 0    50   ~ 0
 OSC_OUT
-Text Label 1275 5625 2    50   ~ 0
+Text Label 1325 6100 2    50   ~ 0
 OSC_OUT
-Text Label 1575 5625 0    50   ~ 0
+Text Label 1625 6100 0    50   ~ 0
 CLK86
 Text Label 11125 2525 2    50   ~ 0
 CLK86
@@ -133,9 +133,9 @@ Text Label 1375 1350 0    50   ~ 0
 5+
 Text Label 11125 2725 2    50   ~ 0
 RDY86
-Text Label 1700 4450 0    50   ~ 0
+Text Label 1750 4925 0    50   ~ 0
 5+
-Text Label 700  4450 2    50   ~ 0
+Text Label 750  4925 2    50   ~ 0
 GND
 Text Label 5050 5300 2    50   ~ 0
 GND
@@ -146,17 +146,17 @@ Text Label 4550 4500 2    50   ~ 0
 $Comp
 L Device:R R2
 U 1 1 669BDBA6
-P 1350 5825
-F 0 "R2" V 1143 5825 50  0000 C CNN
-F 1 "27 OHM" V 1234 5825 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1280 5825 50  0001 C CNN
-F 3 "~" H 1350 5825 50  0001 C CNN
-	1    1350 5825
+P 1400 6300
+F 0 "R2" V 1193 6300 50  0000 C CNN
+F 1 "27 OHM" V 1284 6300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1330 6300 50  0001 C CNN
+F 3 "~" H 1400 6300 50  0001 C CNN
+	1    1400 6300
 	0    1    1    0   
 $EndComp
-Text Label 1200 5825 2    50   ~ 0
+Text Label 1250 6300 2    50   ~ 0
 OSC_OUT
-Text Label 1500 5825 0    50   ~ 0
+Text Label 1550 6300 0    50   ~ 0
 CLK161
 Text Label 5550 4000 0    50   ~ 0
 Q0
@@ -236,9 +236,9 @@ Text Label 11925 5825 0    50   ~ 0
 GND
 Text Label 11725 5825 0    50   ~ 0
 GND
-Text Label 1300 5375 0    50   ~ 0
+Text Label 1350 5850 0    50   ~ 0
 GND
-Text Label 1300 4775 0    50   ~ 0
+Text Label 1350 5250 0    50   ~ 0
 5+
 Text Label 11825 2225 0    50   ~ 0
 5+
@@ -963,8 +963,6 @@ Text Label 8900 1875 0    50   ~ 0
 CONTROL_RD
 Text Label 8900 1775 0    50   ~ 0
 CONTROL_WR
-Text Label 8900 1675 0    50   ~ 0
-CONTROL_IOM
 Text Label 8900 1975 0    50   ~ 0
 CONTROL_A0
 Text Label 8975 4075 0    50   ~ 0
@@ -1012,11 +1010,11 @@ GND
 Text Label 8175 5475 2    50   ~ 0
 GND
 Text Label 8900 2075 0    50   ~ 0
-CONTROL5
+CONTROL_BHE
 Text Label 8900 2175 0    50   ~ 0
 CONTROL6
 Text Label 8900 2275 0    50   ~ 0
-CONTROL7
+CONTROL_ALE
 Text Label 10425 1325 2    50   ~ 0
 IOM
 Text Label 10425 1425 2    50   ~ 0
@@ -1113,4 +1111,21 @@ Text Label 8100 2275 2    50   ~ 0
 GND
 Text Label 8175 4775 2    50   ~ 0
 5+
+Text Label 8900 1675 0    50   ~ 0
+CONTROL_IOM
+$Comp
+L 74xx:74LS04 U?
+U 2 1 669E8BAA
+P 1225 4350
+F 0 "U?" H 1225 4667 50  0000 C CNN
+F 1 "74*04" H 1225 4576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1225 4350 50  0001 C CNN
+F 3 "" H 1225 4350 50  0001 C CNN
+	2    1225 4350
+	1    0    0    -1  
+$EndComp
+Text Label 925  4350 2    50   ~ 0
+CONTROL_ALE
+Text Label 1525 4350 0    50   ~ 0
+CONTROL_ALE_
 $EndSCHEMATC
