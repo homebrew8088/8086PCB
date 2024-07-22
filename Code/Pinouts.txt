@@ -1,0 +1,44 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;28C256
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+A0 = COUNTER 0
+A1 = COUNTER 1
+A2 = COUNTER 2
+A3 = COUNTER 3
+A4 = COUNTER 4
+A5 = COUNTER 5
+A6 = COUNTER 6
+
+A7 = C1 LOW, C2 HIGH 
+A8 = DTR
+A9 = IOM 
+A10 = A0
+A11 = BHE
+A12 = INTA, INVERTED
+A13 = GND, RESERVED FOR MEM16CS
+A14 = GND, RESERVED FOR IO16CS
+
+these are all new signals outputs for the ISA bus not in from processor   
+C1
+D0 = READY (HIGH)
+D1 = IOM
+D2 = WR
+D3 = RD
+D4 = A0
+D5 = BHE
+D6 = 
+D7 = ALE, INVERT OUT
+
+C2
+D0 = DTR LOWER 8
+D1 = DEN LOWER 8
+D2 = LATCH LOWER 8
+D3 = LATCH EN
+D4 = DTR BRIDGE
+D5 = DEN BRIGDE
+D6 = DTR UPPER 8
+D7 = DEN UPPER 8
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

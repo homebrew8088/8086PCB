@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L 74xx:74LS04 U2
 U 7 1 669A97DE
-P 1300 4125
-F 0 "U2" V 933 4125 50  0000 C CNN
-F 1 "74*04" V 1024 4125 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1300 4125 50  0001 C CNN
-F 3 "" H 1300 4125 50  0001 C CNN
-	7    1300 4125
+P 1200 4450
+F 0 "U2" V 833 4450 50  0000 C CNN
+F 1 "74*04" V 924 4450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1200 4450 50  0001 C CNN
+F 3 "" H 1200 4450 50  0001 C CNN
+	7    1200 4450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -133,9 +133,9 @@ Text Label 1375 1350 0    50   ~ 0
 5+
 Text Label 11125 2725 2    50   ~ 0
 RDY86
-Text Label 1800 4125 0    50   ~ 0
+Text Label 1700 4450 0    50   ~ 0
 5+
-Text Label 800  4125 2    50   ~ 0
+Text Label 700  4450 2    50   ~ 0
 GND
 Text Label 5050 5300 2    50   ~ 0
 GND
@@ -849,8 +849,6 @@ Text Label 8100 2075 2    50   ~ 0
 Q5
 Text Label 8100 2175 2    50   ~ 0
 Q6
-Text Label 8100 2275 2    50   ~ 0
-Q7
 Text Label 8100 3175 2    50   ~ 0
 5+
 Text Label 8100 3275 2    50   ~ 0
@@ -899,8 +897,6 @@ Text Label 8175 4575 2    50   ~ 0
 Q5
 Text Label 8175 4675 2    50   ~ 0
 Q6
-Text Label 8175 4775 2    50   ~ 0
-Q7
 Text Label 8175 5675 2    50   ~ 0
 5+
 Text Label 8175 5775 2    50   ~ 0
@@ -1075,10 +1071,6 @@ Text Label 10825 1225 0    50   ~ 0
 5+
 Text Label 10425 1725 2    50   ~ 0
 PU1
-Text Label 8100 2775 2    50   ~ 0
-INTA
-Text Label 8175 5275 2    50   ~ 0
-INTA
 Text Label 11625 9400 2    50   ~ 0
 CONTROL_IOM
 $Comp
@@ -1098,4 +1090,27 @@ Text Label 2875 3775 2    50   ~ 0
 BUS_STOP
 Text Label 2875 3875 2    50   ~ 0
 CONTROL7
+$Comp
+L 74xx:74LS04 U?
+U 2 1 669D9333
+P 1225 3950
+F 0 "U?" H 1225 4267 50  0000 C CNN
+F 1 "74*04" H 1225 4176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1225 3950 50  0001 C CNN
+F 3 "" H 1225 3950 50  0001 C CNN
+	2    1225 3950
+	1    0    0    -1  
+$EndComp
+Text Label 925  3950 2    50   ~ 0
+INTA
+Text Label 1525 3950 0    50   ~ 0
+INTA_
+Text Label 8100 2775 2    50   ~ 0
+INTA_
+Text Label 8175 5275 2    50   ~ 0
+INTA_
+Text Label 8100 2275 2    50   ~ 0
+GND
+Text Label 8175 4775 2    50   ~ 0
+5+
 $EndSCHEMATC
